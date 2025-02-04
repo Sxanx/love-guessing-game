@@ -34,8 +34,8 @@ export const BirthdayGame = () => {
             <Sparkles className="w-6 h-6 text-love-300 absolute top-0 right-1/3 animate-pulse" />
             <Sparkles className="w-4 h-4 text-love-300 absolute bottom-0 left-1/3 animate-pulse" />
           </div>
-          <h1 className="text-4xl font-bold text-love-600 animate-fade-in">ทายวันเกิดของฉัน</h1>
-          <p className="text-love-500 text-lg animate-fade-in">ถ้าคุณทายถูก คุณจะได้รับจดหมายพิเศษ</p>
+          <h1 className="text-4xl font-bold text-love-600 animate-fade-in">วันเกิดของเค้าวันอะไรเอ๋ยยย</h1>
+          <p className="text-love-500 text-lg animate-fade-in">ถ้าเธอทายถูกเดะมีรางวัลให้</p>
         </div>
 
         {!isCorrect ? (
@@ -74,7 +74,7 @@ export const BirthdayGame = () => {
             </button>
             {attempts > 0 && (
               <p className="text-love-400 text-sm animate-fade-in">
-                ลองอีกครั้ง...
+                อ่อนจังไอ่อ้วน อย่าลืมเลข0นะจ๊ะ
               </p>
             )}
           </div>
@@ -118,7 +118,7 @@ const LoveLetter = ({ onClose, onOpen }: { onClose: () => void; onOpen: () => vo
             <MailOpen className="w-12 h-12 text-love-400 transition-transform group-hover:scale-110" />
           </div>
           <div className="absolute bottom-4 left-0 right-0 text-center text-love-400">
-            <p className="text-sm">คลิกเพื่อเปิดจดหมาย</p>
+            <p className="text-sm">ลองเปิดดูไอ่อ้วนน</p>
           </div>
         </button>
       ) : (
@@ -137,7 +137,7 @@ const LoveLetter = ({ onClose, onOpen }: { onClose: () => void; onOpen: () => vo
             </div>
             <div className="space-y-4 leading-relaxed">
               <p className="text-lg">
-                ขอคุณนะที่เข้ามาในชีวิตเค้าอ่ะ เค้าดีใจนะที่ได้เจอเธฮ ที่ได้คุยกับเธออ่ะ มันดีมากๆเลยเธอ
+                ขอคุณนะที่เข้ามาในชีวิตเค้าอ่ะ เค้าดีใจนะที่ได้เจอเธอ ที่ได้คุยกับเธออ่ะ มันดีมากๆเลยเธอ
                 ถ฿งเค้าจะขี้น้อยใจ ขี้งอน มึนมากก แต่เค้าก็ชอบนะเสวลาที่มีเธออ่ะ คือโครตดีใจอ่ะ
               </p>
               <p className="text-lg">
