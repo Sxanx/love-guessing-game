@@ -74,7 +74,7 @@ export const BirthdayGame = () => {
             </button>
             {attempts > 0 && (
               <p className="text-love-400 text-sm animate-fade-in">
-                อ่อนจังไอ่อ้วน อย่าลืมเลข0นะจ๊ะ
+                อ่อนจังไอ่อ้วน อย่าลืมเลข0นะจ๊ะะ
               </p>
             )}
           </div>
