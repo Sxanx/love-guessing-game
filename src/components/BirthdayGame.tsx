@@ -74,7 +74,7 @@ export const BirthdayGame = () => {
             </button>
             {attempts > 0 && (
               <p className="text-love-400 text-sm animate-fade-in">
-                ลองอีกครั้ง... ({attempts} ครั้งที่ลองแล้ว)
+                ลองอีกครั้ง...
               </p>
             )}
           </div>
@@ -82,7 +82,7 @@ export const BirthdayGame = () => {
           <div className="space-y-4">
             <div className="flex items-center justify-center gap-2 animate-fade-in">
               <HeartHandshake className="w-8 h-8 text-love-500" />
-              <p className="text-love-500 text-2xl">ถูกต้อง!</p>
+              <p className="text-love-500 text-2xl">เก่งจังไออ้วนของเค้า</p>
               <HeartHandshake className="w-8 h-8 text-love-500" />
             </div>
             {showLetter && <LoveLetter onClose={() => setLetterOpen(false)} onOpen={() => setLetterOpen(true)} />}
@@ -132,21 +132,20 @@ const LoveLetter = ({ onClose, onOpen }: { onClose: () => void; onOpen: () => vo
           <div className="space-y-6 text-love-600">
             <div className="flex items-center justify-center gap-2">
               <Heart className="w-6 h-6 text-love-400 animate-bounce" />
-              <h2 className="text-2xl font-semibold">ถึงคนที่ฉันรัก</h2>
+              <h2 className="text-2xl font-semibold">ไออ้วนนนน</h2>
               <Heart className="w-6 h-6 text-love-400 animate-bounce" />
             </div>
             <div className="space-y-4 leading-relaxed">
               <p className="text-lg">
-                ในทุกๆ วัน ฉันขอบคุณโชคชะตาที่ทำให้เราได้พบกัน
-                ความรักของเราเป็นเหมือนดั่งดวงดาวที่ส่องสว่างในยามค่ำคืน
+                ขอคุณนะที่เข้ามาในชีวิตเค้าอ่ะ เค้าดีใจนะที่ได้เจอเธฮ ที่ได้คุยกับเธออ่ะ มันดีมากๆเลยเธอ
+                ถ฿งเค้าจะขี้น้อยใจ ขี้งอน มึนมากก แต่เค้าก็ชอบนะเสวลาที่มีเธออ่ะ คือโครตดีใจอ่ะ
               </p>
               <p className="text-lg">
-                ฉันรักทุกช่วงเวลาที่เราได้อยู่ด้วยกัน
-                คุณคือความสุขที่ฉันตามหามาตลอด
-                และฉันจะรักคุณตลอดไป
+                เค้าอยากมีเธอไปตลอดเลยนะ ถึงจจะทะเลลาะกันบ้าง งอนกันบ้าง น้อยใจกันบ้าง
+                แต่เค้าขอเธออย่างเดียวเลย หันหน้าคุยกับเขาได้ไหม เค้าไม่อยากให้ใครมาปลอบเธอแล้วนอกจากเค้า
               </p>
               <div className="pt-4 text-right">
-                <p className="text-lg">ด้วยรักทั้งหมด</p>
+                <p className="text-lg">เค้ารักเธฮนะอ้วน</p>
               </div>
             </div>
           </div>
